@@ -1,0 +1,48 @@
+#containerPpal {
+    display: flex;
+    justify-content: center;
+}
+
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px 0;
+    width: 85%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.buttonDelete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid;
+    border-color: rgb(129, 56, 197);
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.buttonDelete:hover {
+    transform: scale(1.1);
+}
+
+.delete-icon path {
+    fill: rgba(227, 77, 77, 0.761);
+}
+
+.delete-icon:hover path {
+    fill: rgb(227, 77, 77);
+}

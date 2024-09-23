@@ -1,0 +1,75 @@
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#publicityContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 350px;
+    max-width: 400px;
+    height: 400px;
+    padding-block: 20px;
+    gap: 10px;
+    background-color: #623c8d;
+    border: 3px solid rgba(97, 58, 174, 0.619);
+    border-radius: 15px;
+    box-shadow: inset 0 0 20px rgba(13, 57, 79, 0.5),
+    inset 0 0 60px rgba(96, 58, 174, 0.5),
+    inset 0 0 80px rgba(210, 114, 230, 0.4);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#publicityContainer:hover {
+box-shadow: inset 0 0 30px rgba(48, 166, 223, 0.7),
+    inset 0 0 50px rgba(96, 58, 174, 0.5),
+    inset 0 0 80px rgba(210, 114, 230, 0.4);
+}
+
+#publicityContainer .publicityContent {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    height: 95%;
+}
+
+#publicityContainer .publicityContent .publicityTitles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    gap: 20px;
+}
+
+#publicityContainer .publicityContent .publicityTitles .titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    gap: 15px;
+}
+
+#publicityContainer .publicityContent .publicityTitles .titleSkye {
+    color: rgb(51,174,230);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#publicityContainer .publicityContent .publicityTitles .titles .devMode-icon {
+    fill: rgb(186, 98, 206);
+}
+
+#publicityContainer .publicityContent .publicityTitles button {
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(186, 98, 206);
+    cursor: pointer;
+}

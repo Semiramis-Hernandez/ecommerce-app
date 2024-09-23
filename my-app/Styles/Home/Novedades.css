@@ -1,0 +1,90 @@
+#novedadesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    /* background-color: #b62121; */
+    border-radius: 10px 10px 5px 5px;
+    box-shadow: #e59ded 0px 0px 5px;
+}
+
+#novedadesContainer .containerH1YParrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height:50px;
+    background-color: rgb(210, 114, 230, 0.8);
+    border-radius: 10px 10px 0 0;
+    
+}
+
+#novedadesContainer .containerH1YParrafo .novedadesH1 {
+    font-size: 30px;
+    color: rgb(208,209,213);
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.botonesContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(22,24,49);
+    border-radius: 0 0 5px 5px;
+}
+
+.containerPpal {
+    display: flex;
+    overflow: hidden;
+    height: 180px;
+    width: 1170px;
+}
+
+.carouselContainer {
+    display: flex;
+    align-items: center;
+    transition: transform 0.5s ease;
+    height: 100%;
+    gap: 20px;
+}
+
+.imageContainer {
+    display: flex;
+    background-color: #000000;
+    border-radius: 100%;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #e92fdd8f;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.image:hover {
+    box-shadow: 0 0 5px rgb(208,209,213);
+}
+
+.botones {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.arrow-left-icon path, .arrow-right-icon path {
+    fill: rgb(186, 98, 206, 0.7);
+    transition: all 0.5s;
+}
+
+.arrow-left-icon:hover path, .arrow-right-icon:hover path {
+    fill: rgb(186, 98, 206);
+}

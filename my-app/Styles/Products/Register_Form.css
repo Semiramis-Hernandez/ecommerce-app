@@ -1,0 +1,99 @@
+#formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: auto;
+    padding-block: 20px;
+    gap: 30px;
+    background-color: #1b0a2e;
+    border: 1px solid rgba(97, 58, 174, 0.619);
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+#formContainer:hover {
+    box-shadow: inset 0 0 30px rgba(48, 166, 223, 0.7)
+}
+
+#formContainer .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    gap: 25px;
+}
+
+#formContainer .titleFormLogin {
+    text-align: center;
+    font-size: 25px;
+}
+
+.containerInputlLabel {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.labelFormsLogin {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.inputFormsInicio {
+    color: black;
+    height: 30px;
+    text-indent: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    outline:none;
+    border: solid 2px rgb(96,58,174);
+}
+
+.inputsImgSizesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.inputsImgSizes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.btnImgSize {
+    font-size: 15px;
+    font-weight: bold;
+    width: 40%;
+    border-radius: 5px;
+    border: solid 1px rgb(96,58,174);
+    padding: 5px 0;
+    background-color: rgb(54,173,226);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btnImgSize:hover {
+    box-shadow: 0 0 5px rgb(96,58,174);
+}
+
+.btnFormRegister {
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 5px;
+    border: solid 1px rgb(96,58,174);
+    padding: 5px 0;
+    background-color: rgb(186, 98, 206);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btnFormRegister:hover {
+    background-color: rgb(203, 112, 224);
+    box-shadow: 0 0 5px rgb(210,114,230, 0.8);
+}

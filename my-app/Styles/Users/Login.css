@@ -1,0 +1,101 @@
+/* #containerPrincipal {
+    display: flex;
+} */
+
+#containerFormLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    min-width: 350px;
+    max-width: 400px;
+    height: 400px;
+    gap: 15px;
+    /* padding: 20px; */
+    border-radius: 15px;
+    border: solid 2px rgb(96,58,174);
+    background-color: #1b0a2e;
+    box-shadow: inset 0 0 20px rgba(48, 166, 223, 0.5),
+                inset 0 0 60px rgba(96, 58, 174, 0.5),
+                inset 0 0 80px rgba(210, 114, 230, 0.4);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#containerFormLogin:hover {
+    box-shadow: inset 0 0 30px rgba(48, 166, 223, 0.7),
+                inset 0 0 50px rgba(96, 58, 174, 0.5),
+                inset 0 0 80px rgba(210, 114, 230, 0.4);
+}
+
+#containerFormLogin .titleFormLogin {
+    text-align: center;
+    font-size: 25px;
+}
+
+#containerFormLogin .labelFormsLogin {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#containerFormLogin .inputFormsInicio {
+    color: black;
+    height: 30px;
+    text-indent: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    outline: solid 1px rgb(96,58,174);
+}
+
+#containerFormLogin .btnFormLogin {
+    /* color: black; */
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 5px;
+    border: solid 1px rgb(96,58,174);
+    padding: 5px 0;
+    background-color: rgb(186, 98, 206);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#containerFormLogin .btnFormLogin:hover {
+    background-color: rgb(203, 112, 224);
+}
+
+#containerFormLogin .containerTextFlip{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#containerFormLogin .containerTextFlip:hover{
+    cursor: pointer;
+}
+
+#containerFormLogin .containerTextFlip .link {
+    text-decoration: none;
+    color: rgb(208,209,213);
+    font-weight: 600;
+}
+
+#containerFormLogin .containerTextFlip .pFormsLogin {
+    font-size: 13px;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+#containerFormLogin .containerTextFlip .pFormsLogin:hover{
+    border-bottom: 1px solid rgb(208,209,213);;
+}
+
+#containerFormLogin .containerTextFlip .register-icon {
+    fill: rgb(186, 98, 206);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#containerFormLogin .containerTextFlip .register-icon:hover {
+    fill: rgb(51,174,230);
+    transform: scale(0.9);
+}
